@@ -23,8 +23,8 @@ function funChallenge(input) {
 
   for (let i = 0; i < input.length; i++) { // O(n)
     anotherFunction(); // O(n)
-    let stranger = true; // O(1)
-    a++; // O(1)
+    let stranger = true; // O(n)
+    a++; // O(n)
   }
   return a;
 }
